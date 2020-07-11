@@ -11,7 +11,7 @@ def line(array)
     array.each do | customer, position |
       position = counter + 1
       line << "#{position}. "
-      
+
       customer = array[counter]
       line << "#{customer} "
       counter += 1
