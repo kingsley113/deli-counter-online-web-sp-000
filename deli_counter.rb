@@ -14,6 +14,7 @@ def line(array)
       counter += 1
       print "#{position}. #{customer}\n"
     end
+  end
 end
 
 def take_a_number(katz_deli, new_customer)
