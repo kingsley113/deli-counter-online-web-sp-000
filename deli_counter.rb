@@ -6,8 +6,14 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-    take_a_number(array)
-  end
+    counter = 0
+    print "The line is currently: "
+    array.each do | customer, position |
+      customer = array[counter]
+      position = counter + 1
+      counter += 1
+      print "#{position}. #{customer}\n"
+    end
 end
 
 def take_a_number(katz_deli, new_customer)
