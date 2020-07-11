@@ -10,16 +10,16 @@ def line(array)
     line = []
     array.each do | customer, position |
       position = counter + 1
-      line << "#{position}. "
+      line << "#{position}."
 
       customer = array[counter]
-      line << "#{customer} "
+      line << "#{customer}"
       counter += 1
       #print "#{position}. #{customer}\n"
     end
-    current_line = line.join
+    current_line = line.join(" ")
 
-    puts "The line is currently: #{current_line}."
+    puts "The line is currently: #{current_line}"
 
   end
 end
