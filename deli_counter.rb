@@ -11,9 +11,10 @@ def line(array)
     array.each do | customer, position |
       position = counter + 1
       line << "#{position}. "
-      counter += 1
+      
       customer = array[counter]
       line << "#{customer} "
+      counter += 1
       #print "#{position}. #{customer}\n"
     end
     current_line = line.join
