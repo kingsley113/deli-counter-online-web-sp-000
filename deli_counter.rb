@@ -18,7 +18,7 @@ def line(array)
     end
     current_line = line.join
 
-    "The line is currently: #{current_line}."
+    return "The line is currently: #{current_line}."
 
   end
 end
