@@ -7,13 +7,17 @@ def line(array)
     puts "The line is currently empty."
   else
     counter = 0
-    print "The line is currently: "
+    line = []
     array.each do | customer, position |
-      customer = array[counter]
       position = counter + 1
+      line << "#{position}. "
       counter += 1
-      print "#{position}. #{customer}\n"
+      customer = array[counter]
+      line << "#{customer} "
+      #print "#{position}. #{customer}\n"
     end
+    print "The line is currently: #{line.join}."
+
   end
 end
 
