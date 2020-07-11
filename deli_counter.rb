@@ -16,8 +16,8 @@ def line(array)
       line << "#{customer} "
       #print "#{position}. #{customer}\n"
     end
-    print "The line is currently: #{line.join}."
-
+    current_line = "The line is currently: #{line.join}."
+    
   end
 end
 
