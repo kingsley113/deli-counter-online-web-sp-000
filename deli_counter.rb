@@ -7,4 +7,3 @@ def line(array)
     take a number(array)
   end
 end
-
