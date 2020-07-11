@@ -17,7 +17,7 @@ def line(array)
       #print "#{position}. #{customer}\n"
     end
     current_line = "The line is currently: #{line.join}."
-    
+
   end
 end
 
